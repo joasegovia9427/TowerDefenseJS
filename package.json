@@ -4,8 +4,8 @@
   "description": "Tower Defense game built with Phaser 3 - inspired by Flash Element TD 2",
   "main": "index.html",
   "scripts": {
-    "dev": "npx http-server . -p 8080 -o",
-    "start": "npx http-server . -p 8080 -o"
+    "dev": "npx http-server . -p 8080 -o -c-1",
+    "start": "npx http-server . -p 8080 -o -c-1"
   },
   "keywords": [
     "tower-defense",
@@ -22,4 +22,3 @@
     "http-server": "^14.1.1"
   }
 }
-

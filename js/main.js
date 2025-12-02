@@ -94,13 +94,15 @@ function createUI(scene) {
     scene.add.text(10, 10, 'Tower Defense JS', {
         fontSize: '24px',
         fill: '#fff',
-        fontFamily: 'Arial'
+        fontFamily: 'Arial',
+        backgroundColor: '#34495e',
     });
     
     // Money display
     scene.moneyText = scene.add.text(10, 50, 'Money: $500', {
         fontSize: '18px',
-        fill: '#fff'
+        fill: '#fff',
+        backgroundColor: '#34495e',
     });
     
     // Lives display
